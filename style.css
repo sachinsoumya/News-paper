@@ -1,0 +1,475 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    width: 100%;
+    height:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+.mainContainer > .container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width:46%;
+    height:auto;
+    padding:25px;
+}
+.mainContainer > .container > .newsContent {
+    /* background-color: skyblue; */
+    width: 90%;
+    height:1500px;
+    padding: 25px;
+}
+.mainContainer > .container > .newsContent > header > .head1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.mainContainer > .container > .newsContent > header > .head1 > .uperhead{
+    font:bold italic 10px arial,sans-serif;
+
+}
+.mainContainer > .container > .newsContent > header > p{
+    font-size: 12px;
+    
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsheading {
+    font:normal bold 50px  'Times New Roman', Times, serif;
+    word-spacing: 15px;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip{
+   /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height:1300px;
+    flex-wrap: wrap;
+
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1{
+    width: 35%;
+    height: 1000px;
+    /* background-color: red; */
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2{
+    width:63%;
+    height: 100px;
+    /* background-color:blue; */
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .icon{
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif;
+
+    
+
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .subheading{
+    font: bold normal 15px Arial, Helvetica, sans-serif;
+
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > p{
+    text-align: justify;
+}
+/* .mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+} 
+ */
+ .mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .firstImage {
+    height: 130px;
+ }
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .firstImage > img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .firstImage > .position{
+    position: relative;
+    bottom: 140px;
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif;
+}
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .firstImage>.page{
+    position:relative;
+    left:170px;
+    bottom: 57px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+    
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes1 > .subheading2{
+    font:bold normal 13px rial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .secondImage{
+    
+    height:620px;
+}
+
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .secondImage >img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .secondImage > .position{
+    position: relative;
+    bottom: 140px;
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif;
+}
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .secondImage > .page{
+    position:relative;
+    left:350px;
+    bottom: 77px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 {
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21{
+    /* background-color: pink; */
+    width:49%;
+    height: 500px;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .thirdImage{
+    height: 130px;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .thirdImage > img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .thirdImage > .position{
+    position: relative;
+    bottom: 140px;
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif;
+}
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .thirdImage > .page{
+    position:relative;
+    left:150px;
+    bottom: 57px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+}
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .subheading2{
+    font:bold normal 13px arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > p{
+    text-align: justify;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .redText{
+    color:red;
+    font:bold normal 11px arial, Helvetica, sans-serif;
+    margin:20px;
+    word-spacing: 5px;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .fourthImg{
+    height: 130px;
+}
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .fourthImg > img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .fourthImg > .position{
+    position: relative;
+    bottom: 140px;
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif; 
+}
+
+.mainContainer > .container > .newsContent > .newsbody > .newsdescrip > .newsdes2 > .subnewsdes2 > .subnewsdes21 > .fourthImg > .page{
+    position:relative;
+    left:150px;
+    bottom:57px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+  
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font:bold italic 10px  Arial, Helvetica, sans-serif;
+
+}
+hr{
+    background-color: black;
+    height: 0.5px;
+}
+
+/* for 2nd news paper */
+.mainContainer > .container > .newsContent2 {
+    /* background-color: skyblue; */
+    width: 90%;
+    height:1500px;
+    padding: 25px;
+}
+
+.mainContainer > .container > .newsContent2 > header > .head1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.mainContainer > .container > .newsContent2 > header > .head1 > .uperhead{
+    font:bold italic 10px arial,sans-serif;
+
+}
+.mainContainer > .container > .newsContent2 > header > p{
+    font-size: 12px;
+}
+.mainContainer > .container > .newsContent2 > section{
+    margin-top: 10px;
+}
+
+
+.mainContainer > .container > .newsContent2 > section>.FirstsecFlex{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap
+
+}
+.mainContainer > .container > .newsContent2 > section> .FirstsecFlex > .flex1 {
+    width:60%;
+    /* height:auto; */
+    /* background-color: aqua; */
+}
+
+.mainContainer > .container > .newsContent2 > section>.FirstsecFlex > .flex1 > .flexhead{
+    font:bold normal 20px  Arial, Helvetica, sans-serif;
+}
+.mainContainer > .container > .newsContent2 > section> .FirstsecFlex > .flex2{
+    width:38%;
+    /* background-color: chartreuse; */
+    height:auto;
+}
+.mainContainer > .container > .newsContent2 > section>.FirstsecFlex > .flex2 >img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.mainContainer > .container > .newsContent2 > section>.FirstsecFlex > .flex2 > .page{
+    position:relative;
+    left:190px;
+    bottom:60px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+
+}
+.mainContainer > .container > .newsContent2 > section>.FirstsecFlex > .flex1 > .flex11{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:5px;
+}
+.mainContainer > .container > .newsContent2 > section>.FirstsecFlex > .flex1 > .flex11 > .flexItem {
+    width:49%;
+    height: auto;
+    /* background-color:antiquewhite; */
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+    
+}
+.mainContainer > .container > .newsContent2 > section > .sechead {
+    font:bold normal 20px  Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.mainContainer > .container > .newsContent2 > section > .SecondFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align: justify;
+    margin-top:10px;
+}
+.mainContainer > .container > .newsContent2 > section > .SecondFlex > .flexTwo{
+    width:30%;
+    /* height: 50%; */
+    /* background-color: cadetblue; */
+
+}
+.mainContainer > .container > .newsContent2 > section > .SecondFlex > .flexTom{
+    width:69%;
+    /* height:auto; */;
+    /* background-color: cadetblue; */
+}
+.mainContainer > .container > .newsContent2 > section > .SecondFlex > .flexTom > img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+   
+    
+} 
+.mainContainer > .container > .newsContent2 > section > .SecondFlex > .flexTom > .position{
+    position: relative;
+    bottom: 322px;
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif;
+}
+.mainContainer > .container > .newsContent2 > section > .SecondFlex > .flexTom > .page{
+    position:relative;
+    left:380px;
+    bottom:60px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.mainContainer > .container > .newsContent2 > section > .ThirdFlex{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-top: 10px;
+}
+.mainContainer > .container > .newsContent2 > section > .ThirdFlex > .flexThree {
+    width:32.7%;
+    height:auto;
+    /* word-spacing: 10px; */
+    /* background-color: chocolate; */
+    
+}
+
+.mainContainer > .container > .newsContent2 > section > .ThirdFlex > .flexThree > .icon2{
+    color:white;
+    background-color: brown;
+    width: 80px;
+    border:1px solid brown;
+    font:bold italic 12px Arial, Helvetica, sans-serif;
+    
+
+}
+.mainContainer > .container > .newsContent2 > section > .ThirdFlex > .flexThree > .freeflexThree{
+    color:rgb(151 10 10);
+    font:bold normal 15px arial, Helvetica, sans-serif;
+    margin:20px;
+    word-spacing: 5px
+    
+}
+.mainContainer > .container > .newsContent2 > section > .ThirdFlex > .flexThree >img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+.mainContainer > .container > .newsContent2 > section > .ThirdFlex > .flexThree > .page{
+    position:relative;
+    left:150px;
+    bottom:60px;
+    background-color: rgb(38, 35, 35,0.9);
+    color:white;
+    border:0px solid black;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font:bold italic 10px Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
